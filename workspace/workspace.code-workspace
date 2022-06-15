@@ -1,0 +1,42 @@
+{
+  "folders": [
+    {
+      "path": "todo"
+    }
+  ],
+  "settings": {
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "auto-close-tag.disableOnLanguage": [
+      "typescript",
+    ],
+    "eslint.alwaysShowStatus": true,
+  },
+  "extensions": {
+    "recommendations": [
+      "Angular.ng-template",
+      "christian-kohler.npm-intellisense",
+      "christian-kohler.path-intellisense",
+      "dbaeumer.vscode-eslint",
+      "EditorConfig.EditorConfig",
+      "eg2.vscode-npm-script",
+      "esbenp.prettier-vscode",
+      "lfs.vscode-emacs-friendly",
+      "MS-CEINTL.vscode-language-pack-ja",
+      "nrwl.angular-console",
+      "rbbit.typescript-hero",
+      "steoates.autoimport",
+      "streetsidesoftware.code-spell-checker",
+      "Vue.volar"
+    ]
+  }
+}

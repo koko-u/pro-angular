@@ -1,0 +1,10 @@
+<mat-toolbar color="primary" class="mat-elevation-z3">
+  <span class="spacer"></span>
+  <span>{{ username }}'s ToDo List</span>
+  <span class="spacer"></span>
+  <mat-icon matBadge="{{ itemCount }}" matBadgeColor="accent">checklist</mat-icon>
+</mat-toolbar>
+
+<app-add-todo-form (add)="addItem($event)"></app-add-todo-form>
+<app-todo-list [items]="items"></app-todo-list>
+<app-toggle-list (toggle)="toggleItem($event)"></app-toggle-list>

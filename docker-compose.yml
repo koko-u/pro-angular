@@ -1,0 +1,18 @@
+version: '3.2'
+services:
+  app:
+    image: "kokouu/nodejs-dev:v4"
+    container_name: app
+    working_dir: /usr/workspace
+    volumes:
+      - type: bind
+        source: ./workspace
+        target: /usr/workspace
+      - type: volume
+        source: todo_node_modules
+        target: /usr/workspace/todo/node_modules
+        volume:
+          nocopy: true
+    tty: true
+volumes:
+  todo_node_modules:

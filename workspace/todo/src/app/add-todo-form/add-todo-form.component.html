@@ -1,0 +1,11 @@
+<div class="inputContainer">
+  <mat-form-field class="fullWidth">
+    <mat-label style="padding-left: 5px;">
+      New ToDo
+    </mat-label>
+    <input matInput placeholder="Enter todo Description" [formControl]="inputText">
+    <button matSuffix mat-raised-button color="accent" class="addButton" (click)="addItem()">
+      Add
+    </button>
+  </mat-form-field>
+</div>
